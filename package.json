@@ -1,0 +1,36 @@
+{
+  "name": "raffle-export-parser",
+  "version": "1.0.0",
+  "description": "A specialized parser for converting RaffleManager Lua saved variables to JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "lua",
+    "parser",
+    "json",
+    "raffle",
+    "addon",
+    "wow"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeniferirwin/raffle-export-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeniferirwin/raffle-export-parser/issues"
+  },
+  "homepage": "https://github.com/jeniferirwin/raffle-export-parser#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
